@@ -15,5 +15,6 @@ ax.set_zlabel('Z')
 ax.set_title('Z = X*exp(-(X**2 + Y**2))')
 #Note: Replace gray by jet for color plot
 surf = ax.plot_surface(X, Y, Z, cmap = cm.gray , antialiased=False)
+
 plt.show()
 
